@@ -22,18 +22,15 @@ class LoginPageState extends State<LoginPage>{
   @override 
   Widget build(BuildContext context){
     return new Scaffold(
-      backgroundColor: Colors.lightBlue,
+      backgroundColor: Colors.black54,
       body: new Stack(
       fit: StackFit.expand,
         children: <Widget>[
           new Image(
-            image: new AssetImage("assets/Projectlogo.png"),
+            image: new AssetImage("assets/kazuend-2KXEb_8G5vo-unsplash.jpg"),
             fit: BoxFit.contain,
             color: Colors.black26,
             colorBlendMode: BlendMode.darken,
-            //width: 250,
-            //height: 150,
-            
           ),
           new Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -46,7 +43,7 @@ class LoginPageState extends State<LoginPage>{
                         inputDecorationTheme: new InputDecorationTheme(
                           labelStyle: new TextStyle(
                             color: Colors.red,
-                            fontSize: 27.0,
+                            fontSize: 77.0,
                           )
                         )
                       ),
@@ -59,36 +56,50 @@ class LoginPageState extends State<LoginPage>{
                           new TextFormField(
                             decoration: new InputDecoration(
                             hintText: "Enter UserName",
-                          ),
+                            ),
                           keyboardType: TextInputType.text,
-                        ),
+                          ),
                           new TextFormField(
                             decoration: new InputDecoration(
                             hintText: "Enter Password",
-                          ),
+                            ),
                           keyboardType: TextInputType.text,
                           obscureText: true,
                         ),
-                     
-                    ],
+                      ],
+                    ),
+                  ),
+                ),
               ),
-                      ),
-                 ),
-            ),
-            /*Column(
-              children: <Widget>[
-                Stack(
+            ],
+          ),
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              SizedBox(height:130.0),
+                Row(
                   children: <Widget>[
+                    SizedBox(width: 120.0),
                     Container(
-                      height: 200.0,
-                      width: double.infinity,
+                      alignment: Alignment.bottomCenter,
+                      height: 75.0,
+                      width: 75.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(35),
+                        border: Border.all(
+                          color: Colors.white,
+                          style: BorderStyle.solid,
+                          width: 2.0
+                        ),
+                        image: DecorationImage(
+                          image:AssetImage('assets/Projectlogo.png'), 
+                        )
+                      ),
                     )
                   ],
                 )
-              ],
-            )*/
-          ]
-          )
+             ],
+           )
         ],
       ),
     );

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\flutter\\asd\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\flutter\\Fpay-App\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "E:\\flutter\\asd\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "E:\\flutter\\Fpay-App\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
