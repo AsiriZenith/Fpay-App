@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Nov 11 13:50:43 IST 2019
+#Tue Nov 12 13:31:42 IST 2019
 4.path=flutter_assets/FontManifest.json
 13.baseType=DIRECTORY
 8.set=ASSET
@@ -8,7 +8,7 @@
 10.path=flutter_assets/vm_snapshot_data
 5.baseType=DIRECTORY
 1.base=E\:\\flutter\\Fpay-App\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
-8.path=flutter_assets/assets/kazuend-2KXEb_8G5vo-unsplash.jpg
+8.path=flutter_assets/assets/4.jpg
 12.path=lib/x86_64/libflutter.so
 3.base=E\:\\flutter\\Fpay-App\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 4.set=ASSET
